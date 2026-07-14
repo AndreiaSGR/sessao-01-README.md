@@ -13,3 +13,4 @@ Portas filtradas (7777, 7778): presença de firewall a filtrar tráfego para est
 
 ## Conclusões
 O scan identificou 5 portas abertas confirmadas (22, 53, 139, 445, 8443) e 2 portas filtradas (7777, 7778) num alvo Linux. O maior risco encontrado foi o serviço Samba (SMB) nas portas 139/445, que tem a assinatura de mensagens ativa mas não obrigatória, tornando o alvo potencialmente vulnerável a ataques de SMB relay. Recomenda-se também rever a exposição do DNS (dnsmasq) e do serviço Amazon DCV na porta 8443, que permite acesso remoto ao desktop
+Andreia Ramos
